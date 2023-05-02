@@ -1,0 +1,35 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1{
+text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.produto {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  display: grid;
+}
+
+.comprar{
+background: #a8f;
+text-decoration: none;
+padding:  10px 20px;
+border-radius: 3px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  justify-content: center;
+}
